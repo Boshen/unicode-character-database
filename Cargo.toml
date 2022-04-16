@@ -1,0 +1,18 @@
+[package]
+name = "unicode-character-database"
+version = "0.0.0"
+authors = [
+  "Boshen <boshenc@gmail.com>",
+]
+
+homepage = "https://github.com/Boshen/unicode-character-database"
+repository = "https://github.com/Boshen/unicode-character-database"
+documentation = "https://docs.rs/unicode-character-database"
+license = "MIT OR Apache-2.0"
+keywords = ["text", "unicode", "ucd", "tr44"]
+readme = "README.md"
+description = """
+Unicode character database tables (Unicode Standard Annex #44) generated using `ucd-generate`
+"""
+exclude = ["/.github/**", "/scripts/*", "/tables/*"]
+rust-version = "1.17"
